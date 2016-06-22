@@ -1,0 +1,221 @@
+/* 
+    Document   : styleSwitcher
+    Created on : 11.08.2012., 16:41:51
+    Author     : Pixel Industry
+    Description:
+        Stylesheet for StyleSwitcher
+*/
+
+body.patt4 #style-switcher, 
+body.patt5 #style-switcher{
+    border-top: 1px solid #222;
+    box-shadow: 2px 2px 2px #222;
+}
+
+#style-switcher.wide{
+    border-top: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+#style-switcher.wide .patterns{
+    display: none;
+}
+
+#style-switcher{
+    position: fixed;
+    top: 100px;
+    background: #fff;
+    width: 250px;
+    left: -250px;
+    height: 500px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    border-top: 1px solid #ccc;
+    z-index: 9999;
+}
+
+.boxed.active a, 
+.wide.active a{
+    color: #222;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#style-switcher #styles-container{
+    padding: 15px;
+}
+
+#style-switcher #styles-container section{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#style-switcher h6{
+    font: 14px Arial, sans-serif;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#style-switcher p{
+    font: 12px Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#style-switcher #styles-button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: -50px;
+    background: #117dc2;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 2px #222;
+}
+
+#style-switcher #styles-button #switcher-logo{
+    background: url('img/logo.png') no-repeat center;
+    width: 50px;
+    height: 50px;
+}
+
+#style-switcher .styles-list{
+    overflow: hidden;
+}
+
+#style-switcher .styles-list li{
+    float: left;
+    width: 35px;
+    height: 35px;
+
+    text-indent: -9999px;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#style-switcher .styles-list li:hover{
+    opacity: 0.9;
+}
+
+#style-switcher select{
+    background: #f8f8f8;
+    border: 1px solid #AAA;
+    color: #555;
+    font: 12px 'Droid Sans';
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+
+/*************************
+    CUSTOM THEME STYLES
+**************************/
+
+
+/*  STYLES   */
+
+#style-switcher .styles-list .color-default{
+    background: #117dc2;
+}
+
+#style-switcher .styles-list .color-blue2{
+    background: #5881B0;
+}
+
+#style-switcher .styles-list .color-cyan{
+    background: #49c6d5;
+}
+
+#style-switcher .styles-list .color-green-light{
+    background: #92be67;
+}
+
+#style-switcher .styles-list .color-yellow{
+    background: #f1ba11;
+}
+
+#style-switcher .styles-list .color-orange-light{
+    background: #fb6148;
+}
+
+#style-switcher .styles-list .color-orange{
+    background: #dd5003;
+}
+
+#style-switcher .styles-list .color-red{
+    background: #df4647;
+}
+
+#style-switcher .styles-list .color-purple{
+    background: #8560a8;
+}
+
+#style-switcher .styles-list .color-brown{
+    background: #8b1011;
+}
+
+/*  PATTERNS   */
+
+#style-switcher .pattern-list li{    
+    color: #FFFFFF;
+    font: 12px 'Droid Sans', sans-serif;
+    height: 35px;
+    margin: 0 5px 5px 0;
+    text-transform: uppercase;
+    width: 35px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 5px;
+    opacity: 1;
+    text-indent: -9999px;
+}
+
+#style-switcher .pattern-list li:hover{
+    opacity: 0.9;
+}
+
+#style-switcher .pattern-list a{
+    color: #fff;
+}
+
+#style-switcher .pattern-list .active{
+    background: #7fe695;
+}
+
+#style-switcher .pattern-list li.patt1{
+    background: url('../img/patt1.png') no-repeat center;
+}
+
+#style-switcher .pattern-list li.patt2{
+    background: url('../img/patt2.png') no-repeat center;
+}
+
+#style-switcher .pattern-list li.patt3{
+    background: url('../img/patt3.png') no-repeat center;
+}
+
+#style-switcher .pattern-list li.patt4{
+    background: url('../img/patt4.png') no-repeat center;
+}
+
+#style-switcher .pattern-list li.patt5{
+    background: url('../img/patt5.png') no-repeat center;
+}
+

@@ -1,0 +1,33 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "subTitle",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "gallery",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "no",
+    "service": "no",
+    "pagination": "pager"
+}

@@ -1,0 +1,362 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>aaagreen</title>
+    <meta name="description" content="">
+    <meta name="google" value="notranslate">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="data/css/bootstrap.css"/><!-- bootstrap grid -->
+    <link rel="stylesheet" href="data/css/style.css"/><!-- template styles -->
+    <link rel="stylesheet" href="data/css/color-default.css"/><!-- default template color styles -->
+    <link rel="stylesheet" href="data/css/retina.css"/><!-- retina ready styles -->
+    <link rel="stylesheet" href="data/css/responsive.css"/><!-- responsive styles -->
+    <link rel="stylesheet" href="data/css/animate.css"/><!-- animation for content -->
+    <link rel="stylesheet" href="data/linecons/linecons.css"/><!-- line icons css -->
+    <link rel='stylesheet' href='data/owl-carousel/owl.carousel.css'/><!-- .carousels -->
+
+    <!-- Revolution slider -->
+    <link rel="stylesheet" href="data/rs-plugin/css/settings.css"/><!-- .rs-settings end -->
+    <link rel="stylesheet" href="data/rs-plugin/css/mixed.css"/><!-- settings for rev slider -->
+
+    <!-- Maginic Popup - image lightbox -->
+    <link rel="stylesheet" href="data/css/magnific-popup.css" />
+
+    <!-- Google Web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200,500,600,800,700,900' rel='stylesheet' type='text/css'><!-- Raleway font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;.subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'><!-- Open Sans -->
+
+    <!-- Font icons -->
+    <link rel="stylesheet" href="data/font-awesome/css/font-awesome.min.css"/><!-- Font awesome icons -->
+    <link rel="stylesheet" href="data/pixons/style.css" /><!-- Social icons font - Pixons -->
+
+    <link rel="stylesheet" href="assets/styles/main.css"/>
+    <!-- endbuild -->
+</head>
+<body  ng-app="mobaApp">
+<!--[if lt IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div ng-show="{{ENV === 'dev'}}" class="development" ng-cloak=""></div>
+<div id="page-wrapper">
+    <div id="header-wrapper" ui-view="navbar"></div>
+
+    <div class="tp-banner-container fullwidthbanner mb-0">
+        <div id="rev-slider" class="tp-banner">
+            <ul>
+                <!-- SLIDE ONE -->
+                <li data-transition="slideleft" data-slotamount="5" data-masterspeed="700" data-title="Slide 3">
+                    <!-- MAIN IMAGE -->
+                    <img src="gallery/2012/thepast_01.jpg"   alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="200" data-speed="500" data-start="1000" data-easing="Back.easeOut" data-endspeed="500">
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="270" data-speed="500" data-start="1300" data-easing="Back.easeOut" data-endspeed="500" >
+                        Dwen hwe kan!
+                    </div>
+                    <div class="tp-caption sfb" data-x="703" data-y="15" data-speed="500" data-start="1600" data-easing="Back.easeOut" data-endspeed="500" >
+                        <img src="gallery/2012/thepast_09.jpg" alt=""/>
+                    </div>
+                </li>
+                <!-- SLIDE ONE END -->
+
+                <!-- SLIDE TWO -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 2">
+                    <img src="gallery/2012/thepast_03.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="12000"
+                         data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="110" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="630" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Networking well!
+                    </div>
+                </li><!-- SLIDE TWO END -->
+
+                <!-- SLIDE THREE -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_04.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Supporting our Alma!
+                    </div>
+                </li>
+                <!-- SLIDE THREE END -->
+
+                <!-- SLIDE FOUR -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_05.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Yes we can!
+                    </div>
+                </li>
+                <!-- SLIDE FOUR END -->
+
+                <!-- SLIDE FIVE -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_06.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        we are still together!
+                    </div>
+                </li>
+                <!-- SLIDE FIVE END -->
+
+                <!-- SLIDE SIX -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_07.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        We enjoyed the School!
+                    </div>
+                </li>
+                <!-- SLIDE SIX END -->
+
+                <!-- SLIDE SEVEN -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_08.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Family for life!
+                    </div>
+                </li>
+                <!-- SLIDE SEVEN END -->
+
+                <!-- SLIDE EIGHT -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_02.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="50" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="300" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Our best days!
+                    </div>
+                </li>
+                <!-- SLIDE EIGHT END -->
+
+                <!-- SLIDE NINE -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_10.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        We were there some!
+                    </div>
+                </li>
+                <!-- SLIDE NINE END -->
+
+                <!-- SLIDE TEN -->
+                <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                    <img src="gallery/2012/thepast_11.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft" data-x="10" data-y="210" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        Kwabotwe our heritage
+                    </div>
+                    <div class="tp-caption tp-small-heading-2 sft" data-x="30" data-y="280" data-speed="500" data-start="1800" data-easing="Power3.easeInOut" data-endspeed="500" >
+                        We are here!
+                    </div>
+                </li>
+                <!-- SLIDE TEN END -->
+            </ul>
+        </div>
+        <!-- .tp-banner end -->
+    </div>
+    <!-- .tp-banner-container end -->
+
+    <br />
+    <br />
+    <br />
+    <div ui-view="content"></div>
+
+    <!-- #footer-wrapper start -->
+    <div id="footer-wrapper" ui-view="footer">
+
+    </div><!-- #footer-wrapper end -->
+
+</div><!-- #page-wrapper end -->
+
+<script src="data/js/jquery-2.1.1.min.js"></script><!-- jQuery library -->
+<script src="data/js/bootstrap.min.js"></script><!-- .bootstrap script -->
+<script src="data/js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->
+<script src="data/js/jquery.tweetscroll.js"></script><!-- Tweetscroll plugin -->
+<script src="data/rs-plugin/js/jquery.themepunch.tools.min.js"></script><!-- Revolution slider script -->
+<script src="data/rs-plugin/js/jquery.themepunch.revolution.min.js"></script><!-- Revolution slider script -->
+<script src="data/js/jquery.magnific-popup.min.js"></script><!-- used for image lightbox -->
+<script src="data/js/jquery.isotope.min.js"></script><!-- jQuery isotope plugin -->
+<script src="data/js/portfolio.js"></script><!-- for portfolio -->
+<script src="data/js/jquery.countTo.js"></script><!-- Number counter animations -->
+<script src="data/js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
+<script src="data/js/include.js"></script><!-- custom js functions -->
+<script src="data/style-switcher/styleSwitcher.js"></script><!-- for changing styles -->
+
+<!-- build:js vendor.js -->
+<!-- bower:js
+<script src="bower_components/jquery/dist/jquery.js"></script> -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/angular-cache-buster/angular-cache-buster.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+<script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<script src="bower_components/ng-file-upload/ng-file-upload.js"></script>
+<script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
+<script src="bower_components/sockjs-client/dist/sockjs.js"></script>
+<script src="bower_components/stomp-websocket/lib/stomp.min.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+
+<!-- build:js({.tmp,src/main/webapp}) app.js -->
+<script src="app/app.js"></script>
+<script src="app/app.constants.js"></script>
+<script src="app/account/account.js"></script>
+<script src="app/account/activate/activate.js"></script>
+<script src="app/account/activate/activate.controller.js"></script>
+<script src="app/account/login/login.js"></script>
+<script src="app/account/login/login.controller.js"></script>
+<script src="app/account/password/password.js"></script>
+<script src="app/account/password/password.controller.js"></script>
+<script src="app/account/password/password.directive.js"></script>
+<script src="app/account/register/register.js"></script>
+<script src="app/account/register/register.controller.js"></script>
+<script src="app/account/settings/settings.js"></script>
+<script src="app/account/settings/settings.controller.js"></script>
+<script src="app/account/reset/finish/reset.finish.controller.js"></script>
+<script src="app/account/reset/finish/reset.finish.js"></script>
+<script src="app/account/reset/request/reset.request.controller.js"></script>
+<script src="app/account/reset/request/reset.request.js"></script>
+<script src="app/admin/admin.js"></script>
+<script src="app/admin/audits/audits.js"></script>
+<script src="app/admin/audits/audits.controller.js"></script>
+<script src="app/admin/configuration/configuration.js"></script>
+<script src="app/admin/configuration/configuration.controller.js"></script>
+<script src="app/admin/docs/docs.js"></script>
+<script src="app/admin/health/health.js"></script>
+<script src="app/admin/health/health.controller.js"></script>
+<script src="app/admin/health/health.modal.controller.js"></script>
+<script src="app/admin/logs/logs.js"></script>
+<script src="app/admin/logs/logs.controller.js"></script>
+<script src="app/admin/metrics/metrics.js"></script>
+<script src="app/admin/metrics/metrics.controller.js"></script>
+<script src="app/admin/metrics/metrics.modal.controller.js"></script>
+<script src="app/admin/user-management/user-management-detail.controller.js"></script>
+<script src="app/admin/user-management/user-management-dialog.controller.js"></script>
+<script src="app/admin/user-management/user-management-delete-dialog.controller.js"></script>
+<script src="app/admin/user-management/user-management.controller.js"></script>
+<script src="app/admin/user-management/user-management.js"></script>
+<script src="app/entities/entity.js"></script>
+<script src="app/error/error.js"></script>
+<script src="app/main/main.js"></script>
+<script src="app/main/main.controller.js"></script>
+<script src="app/home/home.js"></script>
+<script src="app/home/home.controller.js"></script>
+<script src="app/admin/tracker/tracker.js"></script>
+<script src="app/admin/tracker/tracker.controller.js"></script>
+<script src="app/entities/content/content.js"></script>
+<script src="app/entities/content/content.controller.js"></script>
+<script src="app/entities/content/content-dialog.controller.js"></script>
+<script src="app/entities/content/content-delete-dialog.controller.js"></script>
+<script src="app/entities/content/content-detail.controller.js"></script>
+<script src="app/entities/slide/slide.js"></script>
+<script src="app/entities/slide/slide.controller.js"></script>
+<script src="app/entities/slide/slide-dialog.controller.js"></script>
+<script src="app/entities/slide/slide-delete-dialog.controller.js"></script>
+<script src="app/entities/slide/slide-detail.controller.js"></script>
+<script src="components/entities/slide/slide.service.js"></script>
+<script src="app/entities/gallery/gallery.js"></script>
+<script src="app/entities/gallery/gallery.controller.js"></script>
+<script src="app/entities/gallery/gallery-dialog.controller.js"></script>
+<script src="app/entities/gallery/gallery-delete-dialog.controller.js"></script>
+<script src="app/entities/gallery/gallery-detail.controller.js"></script>
+<script src="components/entities/gallery/gallery.service.js"></script>
+<!-- endbuild -->
+
+
+<script>
+    /* <![CDATA[ */
+    $(document).ready(function ($) {
+        'use strict';
+
+        $('.tp-banner').revolution(
+            {
+                delay: 6000,
+                startwidth: 1170,
+                startheight: 351,
+                hideThumbs: 300,
+                thumbWidth: 100,
+                thumbHeight: 50,
+                thumbAmount: 3,
+                navigationStyle: "none",
+                navigationType: "none",
+                touchenabled: "on",
+                onHoverStop: "on",
+                swipe_velocity: 0.7,
+                swipe_min_touches: 1,
+                swipe_max_touches: 1,
+                drag_block_vertical: false,
+                keyboardNavigation: "on",
+                navigationHAlign: "center",
+                navigationVAlign: "bottom",
+                navigationHOffset: 0,
+                navigationVOffset: 20,
+                soloArrowLeftHalign: "left",
+                soloArrowLeftValign: "center",
+                soloArrowLeftHOffset: 20,
+                soloArrowLeftVOffset: 0,
+                soloArrowRightHalign: "right",
+                soloArrowRightValign: "center",
+                soloArrowRightHOffset: 20,
+                soloArrowRightVOffset: 0,
+                shadow: 0,
+                fullWidth: "off",
+                autoHeight: "off",
+                forceFullWidth: "off"
+            });
+
+        $('.numbers-counter').waypoint(function () {
+                // NUMBERS COUNTER START
+                $('.numbers').data('countToOptions', {
+                    formatter: function (value, options) {
+                        return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+                    }
+                });
+                // start timer
+                $('.timer').each(count);
+
+                function count(options) {
+                    var $this = $(this);
+                    options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                    $this.countTo(options);
+                } // NUMBERS COUNTER END
+            },
+            {
+                offset: '70%',
+                triggerOnce: true
+            }
+        );
+    });
+    /* ]]> */
+</script>
+
+</body>
+</html>

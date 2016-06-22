@@ -1,0 +1,23 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "paragraphs",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "type",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

@@ -1,0 +1,21 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "contents",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "galleries",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "page",
+    "pagination": "infinite-scroll"
+}

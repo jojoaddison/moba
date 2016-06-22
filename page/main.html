@@ -1,0 +1,58 @@
+
+<div id="announcementsPanel" class="page-content custom-background bkg-light-blue" ng-show="announcementsExist">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 clearfix" ng-repeat="announcement in announcements track by $index">
+
+                <section class="fancy-heading left">
+                    <span class="heading-top">{{announcement.title}}</span>
+                </section>
+
+                <div class="infobox-default">
+                    <div class="notification-container">
+                        <p ng-repeat="paragraph in announcement.paragraphs track by $index">
+                            {{ paragraph }}
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="mainPanel" class="page-content custom-background bg-dark-teak dark" ng-show="mainExist">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text">
+                    <div  class="text-center">
+                        <h2>{{ main.title }}</h2>
+                    </div>
+                    <p style="font-size:12px;" ng-repeat=" paragraph in main.paragraphs track by $index">
+                        {{ paragraph }}
+                    </p>
+                </div>
+            </div><!-- .col-md-8 end -->
+        </div><!-- .row end -->
+    </div><!-- .container end -->
+</div ><!-- .page-content end -->
+<!-- .page-content start -->
+<hr>
+<div id="informationPanel" class="page-content" ng-show="informationExist">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" ng-repeat=" info in information track by $index">
+                <div class="service-box-11">
+                    <h4><strong>{{info.title}}</strong></h4>
+                    <p ng-repeat="paragraph in info.paragraphs track by $index">
+                        {{paragraph}}
+                    </p>
+                </div><!-- .service-box-2 end -->
+            </div>
+        </div>
+    </div>
+</div>
+
+

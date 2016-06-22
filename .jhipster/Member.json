@@ -1,0 +1,29 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nickname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "photo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mobilePhone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "album",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "member",
+    "pagination": "pager"
+}

@@ -1,0 +1,29 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "author",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "report",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "created",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "gallery",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "project",
+    "pagination": "no"
+}

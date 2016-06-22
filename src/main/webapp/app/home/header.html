@@ -1,0 +1,53 @@
+<br>
+<hr>
+
+<ul rn-carousel rn-carousel-auto-slide="5"  rn-carousel-buffered style="min-height: 400px;" rn-carousel-transition="zoom" >
+    <li ng-repeat="slide in vm.slides track by $index">
+        <div class="moba-slider img-responsive" style="background: url('{{slide.url}}') scroll no-repeat center top;">
+
+        </div>
+    </li>
+</ul>
+<!--
+<rev-slider
+    id="slider_{{$index}}"
+    ng-repeat="slide in vm.slides track by $index"
+    class="moba-slider"
+    data-version="5.1.1RC"
+    slider-Type="{{slide.sliderType}}"
+    slider-Layout="{{slide.sliderLayout}}"
+    responsive-Levels="{{slider.responsiveLevels}}"
+    gridwidth="{{slide.gridwidth}}"
+    gridheight="{{slide.gridheight}}"
+    auto-Height="{{slide.autoHeight}}"
+    min-Height="{{slide.minHeight}}"
+    full-Screen-Offset-Container="{{slide.fullScreenOffsetContainer}}"
+    full-Screen-Offset="{{slide.fullScreenOffset}}"
+    delay="{{slide.delay}}"
+    disable-Progress-Bar="{{slide.disableProgressBar}}"
+    start-Delay="{{slide.startDelay}}"
+    stop-After-Loops="{{slider.stopAfterLoops}}"
+    stop-At-Slide="{{slide.stopAtSlide}}"
+    view-Port="{{slide.viewPort}}"
+    lazy-Type="{{slide.lazyType}}"
+    dotted-Overlay="{{slide.dottedOverlay}}"
+    shadow="{{slide.shadow}}"
+    spinner="{{slide.spinner}}"
+    hide-All-Caption-At-Lilmit="{{slide.hideAllCaptionAtLilmit}}"
+    hide-Caption-At-Limit="{{slide.hideCaptionAtLimit}}"
+    hide-Slider-At-Limit="{{slide.hideSliderAtLimit}}"
+    debug-Mode="{{slide.debugMode}}"
+    extensions="{{slide.extensions}}"
+    extensionssuffix="{{slide.extensions_suffix}}"
+    fallbacks="{{slide.fallbacks}}"
+    parallax="{{slide.parallax}}"
+    rev-Carousel="{{slide.carousel}}"
+    navigation="{{slide.navigation}}"
+    js-File-Location="{{slide.jsFileLocation}}"
+    visibility-Levels="{{slide.visibilityLevels}}"
+    hide-Thumbs-On-Mobile="{{slide.hideThumbsOnMobile}}"
+    slider-Template-Url="app/home/slider.html"
+>
+</rev-slider>
+-->
+<hr>

@@ -1,0 +1,13 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "state",
+            "fieldType": "Boolean"
+        }
+    ],
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "vote",
+    "pagination": "no"
+}

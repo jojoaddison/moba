@@ -1,0 +1,2 @@
+[24-Aug-2015 12:40:27 UTC] PHP Fatal error:  Call to undefined function Redirect() in /home/ralf/public_html/xml/login.php on line 19
+[24-Aug-2015 12:41:50 UTC] PHP Fatal error:  Call to undefined function Redirect() in /home/ralf/public_html/xml/login.php on line 19

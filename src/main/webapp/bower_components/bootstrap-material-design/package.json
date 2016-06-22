@@ -1,0 +1,54 @@
+{
+  "name": "bootstrap-material-design",
+  "version": "0.3.0",
+  "description": "Material Design for Bootstrap 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FezVrasta/bootstrap-material-design.git"
+  },
+  "author": "Federico Zivolo",
+  "license": "https://github.com/FezVrasta/bootstrap-material-design/blob/master/LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/FezVrasta/bootstrap-material-design/issues"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "bootstrap",
+    "theme",
+    "google",
+    "android",
+    "browser",
+    "framework"
+  ],
+  "homepage": "https://github.com/FezVrasta/bootstrap-material-design",
+  "dependencies": {
+    "bootstrap": ">=3.0",
+    "jquery": ">=1.9.1"
+  },
+  "devDependencies": {
+    "bootstrap": "*",
+    "grunt": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-jasmine": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-dependency-installer": "*",
+    "grunt-exec": "*",
+    "grunt-newer": "*",
+    "jquery": "*",
+    "jshint-stylish": "*",
+    "load-grunt-tasks": "*",
+    "spacejam": "*"
+  }
+}

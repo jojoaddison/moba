@@ -1,0 +1,35 @@
+<div id="announcements" ng-show="announcementsExist" class="announcement-bg">
+    <div ng-repeat=" announcement in announcements track by $index"  class="row-fluid">
+        <div  class="text-left">
+            <h4>{{ announcement.title }}</h4>
+        </div>
+        <p ng-repeat=" paragraph in announcement.paragraphs track by $index" class="text-left">
+            {{ paragraph }}
+        </p>
+    </div>
+</div>
+<hr/>
+
+<div id="main" class="main-bg" ng-show="mainExist">
+    <div  class="text-center">
+        <h2>{{ main.title }}</h2>
+    </div>
+    <p ng-repeat=" paragraph in main.paragraphs track by $index" class="text-left">
+        {{ paragraph }}
+    </p>
+</div ><!-- .page-content end -->
+<hr/>
+<!-- .page-content start -->
+<div id="informationPanel" class="" ng-show="informationExist">
+    <div class="row">
+        <div class="col-md-4" ng-repeat=" info in information track by $index">
+            <div class="service-box-11">
+                <h4><strong>{{info.title}}</strong></h4>
+                <p ng-repeat="paragraph in info.paragraphs track by $index">
+                    {{paragraph}}
+                </p>
+            </div><!-- .service-box-2 end -->
+        </div>
+    </div>
+    <hr>
+</div>

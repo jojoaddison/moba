@@ -1,0 +1,124 @@
+#header-wrapper.header-transparent + .tp-banner-container{
+    margin-top: 0 !important;
+}
+
+.tp-banner ul{
+    display: none;
+}
+
+.tp-banner-container{
+    width:100%;
+    position:relative;
+    padding:0;
+
+    background-color: #f6f6f6;
+    margin-bottom: 80px;
+}
+
+.tp-banner{
+    width:100%;
+    position:relative;
+}
+
+.tp-banner-fullscreen-container {
+    width:100%;
+    position:relative;
+    padding:0;
+}
+
+.tp-small-heading{
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tp-small-heading-2{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+.tp-big-heading{
+    position: relative;
+    color: #fff;
+    font-size: 31px;
+    font-family: 'Raleway', Arial, sans-serif;
+    line-height: 31px;
+    padding-bottom: 10px;
+}
+
+.tp-big-heading-bold{
+    font-weight: 700;
+    line-height: 41px;
+}
+
+.tp-big-heading::after{
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.tp-simple-heading{
+    position: relative;
+    color: #fff;
+    font-size: 31px;
+    font-family: 'Raleway', Arial, sans-serif;
+    line-height: 31px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    line-height: 41px;
+}
+
+.tp-big-heading-2{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 60px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.tp-black{
+    color: #252525;
+}
+
+.tp-big-heading.tp-black:after{
+    background-color: #777;
+}
+
+.tp-list{
+    background-color: #2787c4;
+    padding: 0 3px;
+    color: #fff;
+}
+
+.tp-text{
+    font-size: 15px;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 600;
+    color: #555;
+}
+
+.caption-bkg-black{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+}
+
+.caption-bkg-white{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 40px;
+    color: #252525;
+}
+
+.tp-caption video{
+    width: 100%;
+    height: 100%;
+}

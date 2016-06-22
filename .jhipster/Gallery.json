@@ -1,0 +1,22 @@
+{
+    "relationships": [
+    	{
+    		
+    	}
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "slides",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "no",
+    "service": "no",
+    "pagination": "pager"
+}
